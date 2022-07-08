@@ -1,3 +1,5 @@
+/* CSS RESETS */
+
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +17,8 @@ body{
     background-attachment: fixed;
   
 }
+
+/* Main Container */
 
 .main-contianer{
     background-color: aliceblue;
@@ -87,6 +91,9 @@ input{
 .title:hover{
     color: white;
 }
+
+
+/* Media Queries     */
 
 @media (min-width:0px) and (max-width:320px){
     .main-contianer{
