@@ -88,10 +88,10 @@ input{
     color: white;
 }
 
-@media (max-width:320px){
+@media (min-width:0px) and (max-width:320px){
     .main-contianer{
         margin: 0 auto;
-        margin-top: 300px;
+        margin-top: 80px;
         width: 290px;
         height: 500px;
         /* padding: 1px; */
@@ -126,3 +126,40 @@ input{
     }
 }
 
+@media (min-width:321px) and (max-width:424px){
+    .main-contianer{
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 300px;
+        height: 500px;
+        /* padding: 1px; */
+
+        background: rgba(255, 255, 255, 0.29);
+
+        /* Glasmorphism Effect */
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.29);
+        border-radius: 25px;
+        box-shadow: 0 50px 40px rgba(0, 0, 0, 1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(1px);
+        /* border: 2px solid rgba(255, 255, 255, 10); */
+    }
+
+    .form-container{
+        margin:50px 15px;
+    }
+    input{
+        width: 250px;
+        height: 50px;
+        border-radius: 10px;
+        padding: 5px;
+        border: 0;
+        margin-top: 10px;
+    }
+    .btn{
+        
+        margin:20px 50px;
+    
+    }
+}
